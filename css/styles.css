@@ -1,5 +1,12 @@
+.jumbotron {
+  text-align: center;
+}
+
 .cat-wiki,
 .octo-wiki,
-.rac-wiki {
+.rac-wiki,
+.dog-wiki,
+.bear-wiki,
+.dolphin-wiki {
   display: none;
 }

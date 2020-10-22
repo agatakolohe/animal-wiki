@@ -5,32 +5,107 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Animal Wiki</title>
+    <title>Animal Quiz</title>
   </head>
   <body>
     <div class="container">
-      <h1>Animal Wiki</h1>
-      <h2>Pick an animal and hit submit to learn more!</h2>
+      <div class="jumbotron">
+        <h1>Animal Quiz</h1>
+        <img
+          src="https://image.freepik.com/free-vector/group-wild-animal-cartoon-character_1308-43858.jpg"
+          alt="Group of animals"
+        />
+        <h2>
+          Fill out the quiz to find out which animal you should learn about!
+        </h2>
+      </div>
       <form id="critters">
+        <p>1. Where do you like to live?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="cat" />
-            Cat
+            <input type="radio" name="home" value="house" />
+            House
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="raccoon" />
-            Raccoon
+            <input type="radio" name="home" value="sea" />
+            Under the sea
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="octopus" />
-            Octopus
+            <input type="radio" name="home" value="trash" />
+            Trashcan
           </label>
         </div>
-        <button type="submit" class="btn">Submit!</button>
+        <div class="radio">
+          <label>
+            <input type="radio" name="home" value="forest" />
+            Forest
+          </label>
+        </div>
+        <br />
+        <p>2. What's your favorite food?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="fish" />
+            Fish
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="everything" />
+            <strong>EVERYTHING</strong>
+          </label>
+        </div>
+        <br />
+        <p>3. How many legs do you want?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="legs" value="eight" />
+            8
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="legs" value="four" />
+            4
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="legs" value="none" />
+            0
+          </label>
+        </div>
+        <br />
+        <p>4. Feelings towards humans</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="humans" value="avoid" />
+            Avoid
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="humans" value="tolerate" />
+            Tolerate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="humans" value="love" />
+            <strong>LOVE</strong>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="humans" value="pity" />
+            Pity
+          </label>
+        </div>
+        <button type="submit" class="btn btn-dark">Submit!</button>
       </form>
       <div class="cat-wiki">
         <img
@@ -52,6 +127,24 @@
           alt="Octopus"
         />
         <p>Octopi are weird</p>
+      </div>
+      <div class="dog-wiki">
+        <img
+          src="https://i.pinimg.com/originals/b8/4c/80/b84c80826249cbace5dee81758e84621.jpg"
+          alt="puppy"
+        />
+      </div>
+      <div class="dolphin-wiki">
+        <img
+          src="https://erstech13fmartelli.files.wordpress.com/2015/02/cute-dolphins-dolphins-6939939-1024-768.jpg"
+          alt="dolphin"
+        />
+      </div>
+      <div class="bear-wiki">
+        <img
+          src="https://i.ytimg.com/vi/EgEyTYA77oo/maxresdefault.jpg"
+          alt="bear"
+        />
       </div>
     </div>
   </body>
