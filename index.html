@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Animal Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Animal Wiki</h1>
+      <h2>Pick an animal and hit submit to learn more!</h2>
+      <form id="critters">
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="cat" />
+            Cat
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="raccoon" />
+            Raccoon
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="octopus" />
+            Octopus
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+      <div class="cat-wiki">
+        <img
+          src="https://www.catster.com/wp-content/uploads/2018/06/heterochromia-in-cats-or-a-tortie-with-two-different-colored-eyes.jpg"
+          alt="Kitty"
+        />
+        <p>Cats are great!</p>
+      </div>
+      <div class="rac-wiki">
+        <img
+          src="https://images.glaciermedia.ca/polopoly_fs/1.23615629.1548784445!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_804/raccoon.jpg"
+          alt="Raccoon"
+        />
+        <p>Raccoons are sneaky bears</p>
+      </div>
+      <div class="octo-wiki">
+        <img
+          src="https://www.treehugger.com/thmb/3tdtp2xgdsPeqkUF6_K0QomTKT8=/1000x562/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__02__octopus-with-tentacles-95f05869d29d41068c4a68e69669b63d.jpg"
+          alt="Octopus"
+        />
+        <p>Octopi are weird</p>
+      </div>
+    </div>
+  </body>
+</html>
